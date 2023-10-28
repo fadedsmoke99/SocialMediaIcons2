@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Outfit:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body {
+    display: grid;
+    place-items: center;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(320deg, #ffffff 0%, #d7e1ec 74%);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socials i {
+    display: inline-block;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: white;
+    border-radius: 50px;
+    line-height: 60px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    font-size: 20px;
+}
+
+.socials i:hover {
+    width: 100px;
+    transition: 0.7s;
+}
+
+.socials:nth-child(1):hover i {
+    color: black;
+}
+
+.socials:nth-child(2):hover i {
+    color: #ff0000;
+}
+
+.socials:nth-child(3):hover i {
+    color: #e1306c;
+}
+
+.socials:nth-child(4):hover i {
+    color: #426782;
+}
+
+.socials:nth-child(5):hover i {
+    color: #1da1f2;
+}
